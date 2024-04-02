@@ -108,6 +108,13 @@ for lineIndex, line in enumerate(Lines):
             LABEL.append(_LABEL)
             OPCODE.append(_OPCODE)
             OPERAND.append(_OPERAND)
+
+# Symtab dosya formatinda
+with open("symtab.txt", "w") as output_file:
+    # Simge tablosunu dosyaya yaz
+    for Label in SYMBOL:
+        output_file.write( Label.ljust(7) + "    " + str(hex(SYMBOL[Label])).upper()[2:] +'\n')
+    
        
 # Simge tablosu ekrana yazdırılıyor
 print('\n\n         SYMTAB')
