@@ -57,6 +57,8 @@ else:  # Eğer başlangıç işareti yoksa:
 
 start_location = baseLoc  # Başlangıç konumunu başlangıç konumu olarak ayarla
 
+# İntermediate dosyasını oluştur
+intermediate_output = open("intermediate.txt", "w")
 
 # Dosyanın her satırı üzerinde döngü başlıyor
 for lineIndex, line in enumerate(Lines):
@@ -108,6 +110,13 @@ for lineIndex, line in enumerate(Lines):
             LABEL.append(_LABEL)
             OPCODE.append(_OPCODE)
             OPERAND.append(_OPERAND)
+            # İntermediate dosyasına yaz
+            intermediate_output.write(hex(tempLocCtr)[2:].upper().zfill(4) + "   " + line)
+
+# Dosyaları kapat
+intermediate_output.close()
+inputFile.close()
+
 
 # Symtab dosya formatinda
 with open("symtab.txt", "w") as output_file:
