@@ -122,14 +122,14 @@ inputFile.close()
 with open("symtab.txt", "w") as output_file:
     # Simge tablosunu dosyaya yaz
     for Label in SYMBOL:
-        output_file.write( Label.ljust(7) + "    " + str(hex(SYMBOL[Label])).upper()[2:] +'\n')
+        output_file.write(str(hex(SYMBOL[Label])).upper()[2:]   + "    " + Label.ljust(7) +'\n')
     
        
 # Simge tablosu ekrana yazdırılıyor
 print('\n\n         SYMTAB')
-print('_________________________\n|  LABEL   |  LOCATION  |\n|-----------------------|')
+print('_________________________\n| LOCATION |   LABEL     |\n|------------------------|')
 for lineNumber, Label in enumerate(SYMBOL):
-    print("|  " + Label.ljust(7) + " |   " + str(hex(SYMBOL[Label])).upper()[2:] + ' H   |')
+    print("|  " + str(hex(SYMBOL[Label])).upper()[2:]  + "    |   " + Label.ljust(7) + ' H |')
 print('‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾\n\n')
 
 # Program uzunluğu hesaplanıyor ve ekrana yazdırılıyor
