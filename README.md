@@ -35,10 +35,9 @@ Program, öncelikle `sic.txt` dosyasındaki kodları okur. Bu kodları okurken e
 # Sonuçlar : 
 Asagida programın calışması sonucu elde edilenler verilmiştir.
 
-
-<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/373d873d-13cd-44f4-afe2-078bd33c4848" width=200 height=300>
-<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/15a94763-d5b2-4501-afba-92147e1c8441" width=200 height=300>
-<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/669ce1b7-d555-4bd4-9d87-ddba4f78ec86" width=200 height=300>
+<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/f3c48466-2632-4277-ab6a-f105384f5a23" width=200 height=300>
+<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/5df5eead-68c1-41be-8991-bace915e9c4f" width=200 height=300>
+<img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/ebbe8c2d-d5d0-43b8-9393-c188ff1ca248" width=200 height=300>
 
 
 
