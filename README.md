@@ -33,7 +33,7 @@ Program oncelikle sic.txt'de verilen kodlari okumaya baslar burdan etkiletlerin 
 **4.** Hata mesajları gerekirse konsolda görüntülenecektir.
 
 # SONUC:
-< img src="(https://github.com/sudebeyza/SIC_PASS1/assets/115953068/373d873d-13cd-44f4-afe2-078bd33c4848)" width="200" height="300">
+< img src="https://github.com/sudebeyza/SIC_PASS1/assets/115953068/373d873d-13cd-44f4-afe2-078bd33c4848" width="200" height="300">
 ![image](https://github.com/sudebeyza/SIC_PASS1/assets/115953068/15a94763-d5b2-4501-afba-92147e1c8441)
 ![image](https://github.com/sudebeyza/SIC_PASS1/assets/115953068/669ce1b7-d555-4bd4-9d87-ddba4f78ec86)
 
